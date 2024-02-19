@@ -45,6 +45,16 @@ body {
     margin-right: 15px;
 }
 
+.alert {
+    background-color: #8EDAFC;
+    padding: 10px 5px;
+}
+
+.alert-link {
+    font-size: 12px;
+    color: #507788;
+}
+
 .profile {
     display: flex;
     padding: 5px;
@@ -59,6 +69,7 @@ body {
 .access {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .access-mr {
@@ -68,20 +79,26 @@ body {
 .bg-green {
     background-color: green;
     padding: 10px;
+    width: 450px;
     border-radius: 25px;
     margin-bottom: 15px;
 }
 
 .bg-grey {
+    width: 450px;
     background-color: grey;
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 15px;
 }
 
+.avatar-bg-grey {
+    background-color: #EAEAEA;
+}
+
 .bg-palette {
     background-image: url(./mine.jpg);
-    height: 100%;
+    height: 700px;
 }
 
 h2 {
@@ -90,4 +107,18 @@ h2 {
 
 h3 {
     font-size: 15px;
+}
+
+.fontawesome {
+    color: #B1B1B1;
+}
+
+.my-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fontawesome-mr {
+    margin-right: 10px;
 }
