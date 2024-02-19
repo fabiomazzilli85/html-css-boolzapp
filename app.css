@@ -37,6 +37,16 @@ body {
     background-color: #D5FABA;
 }
 
+.bg-chat-white {
+    background-color: white;
+    color: black;
+}
+
+.main-chat {
+    background-image: url(./mine.jpg);
+    max-height: 100%;
+}
+
 /* Responside Design. Approccio "Mobile First". */
 
 
@@ -45,7 +55,6 @@ body {
         display: flex;
         align-items: center;
         gap: 20px;
-        width: 100%;
         margin-bottom: 20px;
     }
 
@@ -65,12 +74,14 @@ body {
     .bg-chat-green {
         padding: 5px 20px;
         width: 75%;
+        height: 250px;
         border-radius: 25px;;
     }
 
     .bg-chat-white {
         padding: 5px 20px;
         width: 75%;
+        height: 250px;
         border-radius: 25px;
     }
 
@@ -99,5 +110,7 @@ body {
     }
 }
 /* 
-Questa è la visualizzazione di WhatsApp da Mobile. 
-Non sono riuscito a spostare il campo di digitazione del messaggio in fondo alla pagina. */
+Questa è la visualizzazione di WhatsApp da Mobile (smartphone). 
+
+
+/* Responside Design. Approccio "Mobile First": da tablet in su. */
