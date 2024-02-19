@@ -89,7 +89,7 @@ body {
 }
 
 .bg-green {
-    background-color: green;
+    background-color: #D5FABA;
     padding: 10px;
     width: 450px;
     border-radius: 25px;
@@ -98,7 +98,7 @@ body {
 
 .bg-grey {
     width: 450px;
-    background-color: grey;
+    background-color: #FFFFFF;
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 15px;
