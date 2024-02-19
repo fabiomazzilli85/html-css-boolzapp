@@ -93,12 +93,11 @@ body {
         min-height: 100%;
     }
     
-    .message {
-        flex: 1;
-    }
-
     .main-text {
         font-size: 15px;
         line-height: 22px;
     }
 }
+/* 
+Questa è la visualizzazione di WhatsApp da Mobile. 
+Non sono riuscito a spostare il campo di digitazione del messaggio in fondo alla pagina. */
