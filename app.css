@@ -47,13 +47,25 @@ body {
 
 .alert {
     background-color: #8EDAFC;
-    padding: 10px 5px;
+    padding:10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .alert-link {
     font-size: 12px;
     color: #507788;
 }
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 10px;
+    border-bottom: 1px solid #708188;
+} 
+
 
 .profile {
     display: flex;
@@ -121,4 +133,9 @@ h3 {
 
 .fontawesome-mr {
     margin-right: 10px;
+}
+
+.send-msg {
+    display: flex;
+    align-items: center;
 }
