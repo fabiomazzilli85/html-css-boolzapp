@@ -7,3 +7,73 @@
 body {
     font-family: "Lato", sans-serif;
 }
+
+.container {
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-4 {
+    width: calc(4 * 100% / 12);
+}
+
+.col-8 {
+    width: calc(8* 100% / 12);
+}
+
+.my-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EAEAEA;
+    padding: 6px;
+
+}
+
+.profile_flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.avatar {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.fontawesome {
+    padding: 0 10px;
+    color: #B1B1B1;
+}
+
+.fontawesome-alert {
+    background-color: white;
+    color: #8EDAFC;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.new-message {
+    background-color: #8EDAFC;
+    padding:10px;
+}
+
+.alert {
+    color: #507687;
+}
+
+.alert-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.test {
+    display: flex;
+    justify-content: flex-start;
+}
