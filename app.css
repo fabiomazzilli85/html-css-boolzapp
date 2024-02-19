@@ -49,6 +49,11 @@ body {
     display: flex;
     padding: 5px;
     align-items: center;
+    border-bottom: 1px solid #BDC0C2;
+}
+
+.preview {
+    color: #BDC0C2;
 }
 
 .access {
@@ -72,6 +77,11 @@ body {
     padding: 10px;
     border-radius: 25px;
     margin-bottom: 15px;
+}
+
+.bg-palette {
+    background-image: url(./mine.jpg);
+    height: 100%;
 }
 
 h2 {
