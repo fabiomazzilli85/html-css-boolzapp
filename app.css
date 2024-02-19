@@ -8,10 +8,6 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.app {
-    width: 100vh;
-}
-
 .container {
     width: 1130px;
     margin: 0 auto;
