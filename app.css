@@ -135,6 +135,16 @@ body {
 	}
 }
 
+@media  (min-width: 769px) and (max-width: 1200px) {
+    .alert {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+}
+
 @media (min-width: 1200px) {
 	#app {
 		padding: 36px 0;
