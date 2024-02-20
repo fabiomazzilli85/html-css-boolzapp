@@ -100,6 +100,13 @@ body {
 .fontawesome-mr {
 	color: #B1B1B1;
 	margin-right: 13px;
+    display: none;
+}
+
+@media (min-width: 1200px) {
+	.fontawesome-mr {
+		display: flex;
+	}
 }
 
 .fontawesome-alert {
