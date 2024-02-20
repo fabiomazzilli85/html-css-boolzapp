@@ -105,6 +105,7 @@ body {
 
 .time {
     color: #B8BBBD;
+	margin-left: 18px;
 } 
 
 .fontawesome-mr {
@@ -177,25 +178,6 @@ body {
 	}
 }
 
-/* DEBUG */
-.debug #app {
-	border: 3px solid black;
-	background-color: aquamarine;
-}
-
-.debug .app__content {
-	border: 3px solid red;
-}
-
-.debug .app__content > * {
-	border: 3px solid white;
-	color: white;
-}
-
-.debug .sidebar {
-	/* background-color: violet; */
-}
-
-.debug .chat-wrapper {
-	background-color: violet;
+.chat-wrapper {
+	background-image: url(mine.jpg);
 }
