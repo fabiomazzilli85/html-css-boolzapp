@@ -201,6 +201,15 @@ body {
 
 .fontawesome-flex {
 	display: flex;
+	color: #B1B1B1;
+	margin-right: 13px;
+	gap: 15px;
+}
+
+@media (max-width: 768px) {
+	.fontawesome-flex {
+		display: none;
+	}
 }
 
 .who-is {
