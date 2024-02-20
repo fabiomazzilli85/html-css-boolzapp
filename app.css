@@ -50,7 +50,7 @@ body {
 .alert {
 	display: flex;
 	background-color: #8EDAFC;
-	padding: 13px;
+	padding: 20px 13px;
 	align-items: center;
 	gap: 18px;
 	color: black;
