@@ -82,6 +82,11 @@ body {
     gap: 15px;
     background-color: white;
 }
+.chat-history {
+    max-height: 630px;
+    overflow-y: auto;
+}
+
 
 .chat-name {
     color: black;
