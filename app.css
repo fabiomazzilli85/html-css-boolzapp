@@ -178,6 +178,9 @@ body {
 	}
 }
 
-.chat-wrapper {
-	background-image: url(mine.jpg);
+.heading {
+	display: flex;
+	align-items: center;
+	gap: 18px;
+	background: #EAEAEA;
 }
