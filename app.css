@@ -82,10 +82,10 @@ body {
     gap: 15px;
     background-color: white;
 }
-.chat-history {
+/* .chat-history {
     max-height: 630px;
-    overflow-y: auto;
-}
+    overflow: auto;
+} */
 
 
 .chat-name {
