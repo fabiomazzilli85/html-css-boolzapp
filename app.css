@@ -76,6 +76,27 @@ body {
 	border: none;
 }
 
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+}
+
+.chat-name {
+    color: black;
+    font-size: 16px;
+}
+
+.chat-preview{
+    color: #B8BBBD;
+    font-size: 15px;
+}
+
+.time {
+    color: #B8BBBD;
+} 
+
 .fontawesome-mr {
 	color: #B1B1B1;
 	margin-right: 13px;
