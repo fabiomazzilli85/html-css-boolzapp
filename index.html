@@ -1,165 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/6d90b0a9f2.js" crossorigin="anonymous"></script>
-    <title>Boolzap</title>
-</head>
-<body>
-    <section>
-        <div class="container">
-            <div class="aside">
-                <div class="my-status avatar-bg-grey">
-                    <img class="avatar" src="avatar_io.jpg" alt="#">
-                    
-                    <div class="fontawesome-mr">
-                        <span class="fontawesome fontawesome-mr"><i class="fa-solid fa-arrow-rotate-right"></i></span>
-                        <span class="fontawesome fontawesome-mr"><i class="fa-solid fa-message"></i></span>
-                        <span class="fontawesome fontawesome-mr"><i class="fa-solid fa-ellipsis-vertical"></i></span>
-                    </div>
-                </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Boolzapp</title>
+		<script src="https://kit.fontawesome.com/6d90b0a9f2.js" crossorigin="anonymous"></script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/app.css" />
+	</head>
+	<body class="debug">
+		<div id="app">
+			<div class="app__content">
+				<header class="sidebar">
+					
+					<!-- Qui inizia la sezione "Il Mio Stato". -->
+					<div class="my-status avatar-bg-grey">
+						<img class="avatar" src="avatar_io.jpg" alt="#">
+						
+						<div class="fontawesome-mr">
+							<span class="fontawesome fontawesome-mr"><i class="fa-solid fa-arrow-rotate-right"></i></span>
+							<span class="fontawesome fontawesome-mr"><i class="fa-solid fa-message"></i></span>
+							<span class="fontawesome fontawesome-mr"><i class="fa-solid fa-ellipsis-vertical"></i></span>
+						</div>
+					</div>
+					<!-- Qui finisce  la sezione "Il Mio Stato". -->
 
-                <div class="alert">
-                    <span class="fontawesome"><i class="fa-solid fa-bell-slash"></i></span>
-                    <div>
-                        <h3>Ricevi notifiche di nuovi messaggi</h3>
-                        <a class="alert-link" href="#">Attiva Notifiche Desktop</a>
-                    </div>
-                </div>
+					<!-- Qui inizia la sezione "Alert". -->
+					<div class="alert">
+						<span class="fontawesome-alert"><i class="fa-solid fa-bell-slash"></i></span>
+						<div>
+							<h3 class="alert-font-size">Ricevi notifiche di nuovi messaggi</h3>
+							<a class="alert-link" href="#">Attiva Notifiche Desktop</a>
+						</div>
+					</div>
+					<!-- Qui finisce la sezione "Alert". -->
 
-                <div class="search">
-                    <span class="fontawesome"><i class="fa-solid fa-magnifying-glass"></i></span>
-                    <p>Cerca o inizia una nuova Chat</p>
-                </div>
+					<!-- Qui iniza la sezione "Search". -->
+					<div class="search">
+						<span class="fontawesome fontawesome-search"><i class="fa-solid fa-magnifying-glass"></i></span>
+						<input class="search-border" type="text" placeholder="Inizia una nuova chat">
+					</div>
+					<!-- Qui finisce la sezione "Search". -->
 
-                <div class="chat-history">
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_1.jpg" alt="">
-                        </div>
+					<!-- Qui inizia la sezione "Chat Chronology". -->
+					<div class="chat-history">
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_1.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Michele</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+	
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_2.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Fabio</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_3.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Samuele</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_4.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Alessandro B</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_5.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Alessandro L</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_6.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Claudia</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_7.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Federico</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+						<div class="profile">
+							<div>
+								<img class="avatar" src="avatar_8.jpg" alt="">
+							</div>
+	
+							<div>
+								<h3>Davide</h3>
+								<p class="preview">Lorem ipsum dolor sit amet.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+					<!-- Qui finisce la sezione "Chat Chronology". -->
 
-                        <div>
-                            <h3>Michele</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
 
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_2.jpg" alt="">
-                        </div>
-
-                        <div>
-                            <h3>Fabio</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_3.jpg" alt="">
-                        </div>
-
-                        <div>
-                            <h3>Samuele</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_4.jpg" alt="">
-                        </div>
-
-                        <div>
-                            <h3>Alessandro B</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_5.jpg" alt="">
-                        </div>
-
-                        <div>
-                            <h3>Alessandro L</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_6.jpg" alt="">
-                        </div>
-
-                        <div>
-                            <h3>Claudia</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_7.jpg" alt="">
-                        </div>
-
-                        <div>
-                            <h3>Federico</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                    <div class="profile">
-                        <div>
-                            <img class="avatar" src="avatar_8.jpg" alt="">
-                        </div>
-
-                        <div>
-                            <h3>Davide</h3>
-                            <p class="preview">Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Qui Finisce la Sezione Aside. -->
-
-            <!-- Qui Inizia la Sezione con le Chat.  -->
-            <div class="main-chat">
-                <div class="">
-                    <div class="chat-mobile-flex chat-bg-gray">
-                        <img class="avatar" src="avatar_1.jpg" alt="#">  
-                        <div>
-                            <h2 class="live-chat">Michele</h2>
-                            <p class="last-update">Ultimo Accesso oggi alle 16.15</p>
-                        </div>
-
-                        <div class="fontawesome">
-                            <i class="fa-solid fa-magnifying-glass"></i>
-                            <i class="fa-solid fa-paperclip"></i>
-                            <i class="fa-solid fa-ellipsis-vertical"></i>
-                        </div>
-                    </div>
-
-                    <div class="text-area">
-
-                            <p class="bg-chat-green main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    </div>
-
-                    <div class="text-area-right">
-                            <p class="bg-chat-white main-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veritatis iure rerum adipisci, qui reprehenderit cupiditate debitis illo ea esse.</p>
-                    </div>
-
-                    <div class="send-msg">
-                        <span class="fontawesome"><i class="fa-regular fa-face-smile"></i></span>
-                        <textarea class="" name="" id="" cols="40" rows="2">Scrivi un Messaggio...</textarea>
-                        <span class="fontawesome"><i class="fa-solid fa-microphone"></i></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-            <!-- Qui finisce la sezione principale delle chat -->
-        </div>
-    </section>
-</body>
+				</header>
+				<main class="chat-wrapper">chat</main>
+			</div>
+		</div>
+	</body>
 </html>
