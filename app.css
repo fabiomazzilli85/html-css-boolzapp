@@ -76,6 +76,11 @@ body {
 	border: none;
 }
 
+
+.list-name {
+	list-style-type: none;
+}
+
 .profile {
     display: flex;
     align-items: center;
