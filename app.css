@@ -292,7 +292,7 @@ body {
 .text-write {
 display: flex;
 align-items: center;
-column-gap: 20px;
+column-gap: 13px;
 }
 
 .write-message {
