@@ -85,13 +85,14 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 15px;
-	background-color: white;
 	border-bottom: 1px solid #F7F7F7;
 }
-/* .chat-history {
-	max-height: 630px;
+.chat-history {
+	background-color: white;
+	flex-grow: 1;
+	flex-basis: 0%;
 	overflow: auto;
-} */
+}
 
 
 .chat-name {
@@ -183,7 +184,7 @@ body {
 
 @media (min-width: 1200px) {
 	#app {
-		padding: 36px 0;
+		/* padding: 36px 0; */
 	}
 	
 	.app__content {
@@ -193,6 +194,8 @@ body {
 	
 	.sidebar {
 		width: 370px;
+		display: flex;
+		flex-direction: column;
 	}
 }
 
@@ -247,6 +250,7 @@ body {
 .text-list {
 	display: flex;
 	flex-direction: column;
+	flex-grow: 1;
 }
 
 .text  {
@@ -261,4 +265,10 @@ body {
 .incoming-text {
 	align-self: flex-start;
 	margin-left: 30px;
+}
+
+.text-write {
+	background-color: #F3EEEB;
+	padding: 5px 10px;
+	color: #6D6D6D;
 }
