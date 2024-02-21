@@ -12,19 +12,19 @@ body {
 	height: 100vh;
 	background: rgb(217, 219, 215);
 	background: -moz-linear-gradient(
-		180deg,
-		rgba(78, 147, 137, 1) 150px,
-		rgba(217, 219, 215, 1) 150px
+	180deg,
+	rgba(78, 147, 137, 1) 150px,
+	rgba(217, 219, 215, 1) 150px
 	);
 	background: -webkit-linear-gradient(
-		180deg,
-		rgba(78, 147, 137, 1) 150px,
-		rgba(217, 219, 215, 1) 150px
+	180deg,
+	rgba(78, 147, 137, 1) 150px,
+	rgba(217, 219, 215, 1) 150px
 	);
 	background: linear-gradient(
-		180deg,
-		rgba(78, 147, 137, 1) 150px,
-		rgba(217, 219, 215, 1) 150px
+	180deg,
+	rgba(78, 147, 137, 1) 150px,
+	rgba(217, 219, 215, 1) 150px
 	);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9dbd7",endColorstr="#4e9389",GradientType=1);
 }
@@ -82,37 +82,37 @@ body {
 }
 
 .profile {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    background-color: white;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	background-color: white;
 	border-bottom: 1px solid #F7F7F7;
 }
 /* .chat-history {
-    max-height: 630px;
-    overflow: auto;
+	max-height: 630px;
+	overflow: auto;
 } */
 
 
 .chat-name {
-    color: black;
-    font-size: 16px;
+	color: black;
+	font-size: 16px;
 }
 
 .chat-preview{
-    color: #B8BBBD;
-    font-size: 15px;
+	color: #B8BBBD;
+	font-size: 15px;
 }
 
 .time {
-    color: #B8BBBD;
+	color: #B8BBBD;
 	margin-left: 18px;
 } 
 
 .fontawesome-mr {
 	color: #B1B1B1;
 	margin-right: 13px;
-    display: none;
+	display: none;
 }
 
 @media (min-width: 1200px) {
@@ -142,10 +142,10 @@ body {
 }
 
 .avatar {
-    width: 50px;
-    border-radius: 50%;
-    margin-left: 20px;
-    padding: 20px 0;
+	width: 50px;
+	border-radius: 50%;
+	margin-left: 20px;
+	padding: 20px 0;
 }
 
 @media (min-width: 768px) {
@@ -155,22 +155,22 @@ body {
 }
 
 @media  (min-width: 765px) and (max-width: 1200px) {
-    .alert {
-        display: none;
-    }
-
-    .search {
-        display: none;
-    }
-
+	.alert {
+		display: none;
+	}
+	
+	.search {
+		display: none;
+	}
+	
 	.list-name {
 		display: none;
 	}
-
+	
 	.chat-preview {
 		display: none;
 	}
-
+	
 	.time {
 		display: none;
 	}
@@ -180,12 +180,12 @@ body {
 	#app {
 		padding: 36px 0;
 	}
-
+	
 	.app__content {
 		width: 80%;
 		margin: 0 auto;
 	}
-
+	
 	.sidebar {
 		width: 370px;
 	}
@@ -234,6 +234,23 @@ body {
 	border-radius: 25px;
 }
 
+.main-bg {
+	background-image: url("mine.jpg"); 
+}
+
+.text-list {
+	display: flex;
+	flex-direction: column;
+}
+
 .text  {
 	max-width: 700px;
+}
+
+.send-text {
+	align-self: flex-end;
+}
+
+.incoming-text {
+	align-self: flex-start;
 }
