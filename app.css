@@ -140,6 +140,8 @@ body {
 }
 
 .chat-wrapper {
+	display: flex;
+	flex-direction: column;
 	flex-grow: 1;
 }
 
@@ -180,7 +182,26 @@ body {
 	.main-bg {
 		display: inline-block;
 	}
+
+	.send-text {
+		display: block;
+		margin: 0 15px;
+	}
+
+	.incoming-text {
+		display: block;
+		margin: 0 15px;
+	}
 }
+
+@media (max-width: 750px) and (max-width: 576px) {
+	.send-text {
+		margin: 0 15px;
+	}
+	.incoming-text {
+		margin: 0 15px;
+	}
+} 
 
 @media (min-width: 1200px) {
 	#app {
@@ -243,8 +264,9 @@ body {
 }
 
 .main-bg {
-	background-image: url("mine.jpg"); 
-	min-height: 100%;
+	background-image: url("mine.jpg");
+	flex-grow: 1;
+	flex-basis: 0%; 
 }
 
 .text-list {
@@ -268,7 +290,15 @@ body {
 }
 
 .text-write {
-	background-color: #F3EEEB;
-	padding: 5px 10px;
-	color: #6D6D6D;
+display: flex;
+align-items: center;
+column-gap: 20px;
+}
+
+.write-message {
+	border-radius: 5px;
+	padding: 10px;
+	flex-basis: 0%;
+	flex-grow: 1;
+	border: 0;
 }
