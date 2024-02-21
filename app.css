@@ -249,8 +249,10 @@ body {
 
 .send-text {
 	align-self: flex-end;
+	margin-right: 90px;
 }
 
 .incoming-text {
 	align-self: flex-start;
+	margin-left: 90px;
 }
