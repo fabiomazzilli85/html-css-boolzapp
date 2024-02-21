@@ -233,3 +233,7 @@ body {
 	margin-left: 35px;
 	border-radius: 25px;
 }
+
+.text  {
+	max-width: 700px;
+}
